@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    './storyblok/**/*.{html,js,ts,vue}'
+  ],
   theme: {
     extend: {},
   },
